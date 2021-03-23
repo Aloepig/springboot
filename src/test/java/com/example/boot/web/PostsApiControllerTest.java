@@ -4,7 +4,6 @@ import com.example.boot.domain.posts.Posts;
 import com.example.boot.domain.posts.PostsRepository;
 import com.example.boot.web.dto.PostsSaveRequestDto;
 import com.example.boot.web.dto.PostsUpdateRequestDto;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -16,7 +15,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.Assert;
 
 import java.util.List;
 
